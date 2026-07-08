@@ -234,11 +234,15 @@ a.button.var-violet::before {
   margin-left: 16px;
 }
 
-@media (max-width: 400px) {
-  .txt-img-txt.left {
+@media (max-width: 800px) {
+  .txt-img-txt.left,
+  .txt-img-txt.right {
     margin-left: 16px;
     margin-right: 16px;
   }
+}
+
+@media (max-width: 800px) {
   .txt-img-txt {
     order: 1;
   }
@@ -286,7 +290,7 @@ a.button.var-violet::before {
 
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: min(400px, 100%);
   height: 100%;
 }
 
@@ -305,10 +309,23 @@ a.button.var-violet::before {
     border-radius: 12px 0 0 12px;
   }
 }
-
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .txt-img-container {
     grid-column: span 12;
+  }
+
+  .txt-img-img.left {
+    left: unset;
+    right: 0;
+  }
+
+  .txt-img-stripe.left {
+    left: unset;
+    right: calc(min(400px, 100%) - 16px);
+  }
+
+  .txt-img-stripe.right {
+    left: calc(min(400px, 100%) - 16px);
   }
 }
 
