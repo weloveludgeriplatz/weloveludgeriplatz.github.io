@@ -4,7 +4,7 @@ title: Test
 sections:
   - type: image
     style: orange
-    src: https://v1.padlet.pics/3/image.webp?t=c_limit%2Cdpr_2%2Ch_445%2Cw_792&url=https%3A%2F%2Fu1.padletusercontent.com%2Fuploads%2Fpadlet-uploads-usc1%2F5847194019%2F4a5f0fd316eb2ede47d408219436e39f%2FDSC_5497_10.jpg%3Fexpiry_token%3D5WaHZRdGG3LkUVQGy3SZ-zdRtq89aJeottSBaF_Hii8dmxJqYDvE2-MDbblcM-ZrVekXW99RReKkJFIoMoKio6k1TkHr2SINgDareHCzujlv59IKyZmN7fXOf9yqw5iY9P60UTcGs8tqIyonGWYVjEun6vj1I90M3to2yTb3CScyAY47yPAM9-0p48Cdht-1BNAU0dYPTOR-B2cqPEQjSDuMxbbQEBqArCE-7Dr0c_8%3D
+    src: https://drive.google.com/file/d/1fail4N_QDvms4TJHg9EBpoUklFcQ8yc2
     alt: test
   - type: button
     style: orange
