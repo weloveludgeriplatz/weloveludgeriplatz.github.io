@@ -3,11 +3,11 @@ layout: layouts/base.njk
 title: Website-Workshops
 sections:
   - type: image
-    style: orange
+    style: violet
     alt: "Florios Arbeitsplatz während der Web-entwicklung "
     src: https://drive.google.com/file/d/1_dS2_Mni4MxSVdoOh_DFUHwA_a-RZqg6/view?usp=sharing
   - type: paragraph
-    style: white_orange
+    style: white_violet
     content: >-
       ## Gemeinschaft vor Ort und im Netz - Sichtbarkeit im digitalen Zeitalter
 
@@ -18,6 +18,9 @@ sections:
       Webentwickler Florio Partenzi und die Initiative „WeLoveLudgeriplatz“ laden dazu ein, gemeinsam über den Nutzen des Internets für lokale Gemeinschaften nachzudenken und zu erkunden, was eine erfolgreiche Internetpräsenz ausmacht.
   - type: paragraph
     content: >-
+      #### Termine
+
+
       LadenEden, Ludgeripl. 39, 47057 Duisburg
 
 
@@ -26,6 +29,6 @@ sections:
       Sa. 18. Juli 15-17 Uhr
 
 
-      Anmeldung & Infos: Duisburg Unverpackt - Blumenstraße 2, 47057 Duisburg oder per mail an weloveludgeriplatz@yahoo.com.
-    style: orange
+      **Anmeldung & Infos:** Duisburg Unverpackt - Blumenstraße 2, 47057 Duisburg oder per mail an weloveludgeriplatz@yahoo.com.
+    style: violet
 ---
