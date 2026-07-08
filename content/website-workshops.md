@@ -3,11 +3,11 @@ layout: layouts/base.njk
 title: Website-Workshops
 sections:
   - type: image
-    style: violet
+    style: orange
     alt: "Florios Arbeitsplatz während der Web-entwicklung "
     src: https://drive.google.com/file/d/1_dS2_Mni4MxSVdoOh_DFUHwA_a-RZqg6/view?usp=sharing
   - type: paragraph
-    style: white_violet
+    style: white_orange
     content: >-
       ## Gemeinschaft vor Ort und im Netz - Sichtbarkeit im digitalen Zeitalter
 
