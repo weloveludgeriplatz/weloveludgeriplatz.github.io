@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: weloveludgeriplatz/weloveludgeriplatz.github.io
-  branch: main
+  branch: dev
 
   base_url: https://decap-auth.weloveludgeriplatz.workers.dev
   auth_endpoint: auth
