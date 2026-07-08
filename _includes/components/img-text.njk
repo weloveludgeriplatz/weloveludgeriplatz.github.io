@@ -5,7 +5,7 @@
     {% endif %}
 
     <div class="txt-img-container txt-img-container-img {{side}}">
-      <div class="txt-img-img {{side}}" style="background-image: url({{src}})"></div>
+      <div class="txt-img-img {{side}}" style="background-image: url({{src | driveImg}})" referrerpolicy="no-referrer"></div>
       <div class="txt-img-stripe var-{{style}} {{side}}"></div>
     </div>
 

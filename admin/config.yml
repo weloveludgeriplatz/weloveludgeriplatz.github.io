@@ -69,7 +69,7 @@ collections:
                   options: ["orange", "violet"],
                   default: "orange",
                 }
-              - { label: "Image", name: "src", widget: "image" }
+              - { label: "drive-image", name: "src", widget: "drive-image" }
               - { label: "Alt Text", name: "alt", widget: "string" }
 
           - label: "Image + Text"
@@ -90,6 +90,6 @@ collections:
                   options: ["left", "right"],
                   default: "left",
                 }
-              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Image", name: "src", widget: "drive-image" }
               - { label: "Alt Text", name: "alt", widget: "string" }
               - { label: "Content", name: "content", widget: "markdown" }
