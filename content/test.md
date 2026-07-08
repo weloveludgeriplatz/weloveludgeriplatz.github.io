@@ -4,7 +4,7 @@ title: Test
 sections:
   - type: image
     style: orange
-    src: https://drive.google.com/file/d/1fail4N_QDvms4TJHg9EBpoUklFcQ8yc2/view?usp=sharing
+    src: https://lh3.googleusercontent.com/d/1fail4N_QDvms4TJHg9EBpoUklFcQ8yc2
     alt: test
   - type: button
     style: orange
