@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: weloveludgeriplatz/weloveludgeriplatz
+  repo: weloveludgeriplatz/weloveludgeriplatz.github.io
   branch: main
 
 local_backend: true
