@@ -3,6 +3,9 @@ backend:
   repo: weloveludgeriplatz/weloveludgeriplatz.github.io
   branch: main
 
+  base_url: https://decap-auth.weloveludgeriplatz.workers.dev
+  auth_endpoint: auth
+
 local_backend: true
 
 media_folder: "public/images"
