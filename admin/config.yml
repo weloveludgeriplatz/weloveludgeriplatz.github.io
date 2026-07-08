@@ -40,7 +40,14 @@ collections:
                   label: "Style",
                   name: "style",
                   widget: "select",
-                  options: ["orange", "violet", "white"],
+                  options:
+                    [
+                      { label: "orange", value: "orange" },
+                      { label: "violet", value: "violet" },
+                      { label: "white", value: "white" },
+                      { label: "white + orange", value: "white_orange" },
+                      { label: "white + violet", value: "white_violet" },
+                    ],
                 }
               - { label: "Content", name: "content", widget: "markdown" }
 

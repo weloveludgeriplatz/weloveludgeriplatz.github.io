@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  margin: 0px;
+  margin: 16px 0px;
 }
 
 .card::before {
@@ -37,23 +37,44 @@
 .card.var-violet::before {
   background-color: var(--violet);
 }
-.card.var-white::before {
+.card.var-white::before,
+.card.var-white_orange::before,
+.card.var-white_violet::before {
   background-color: var(--white);
   transform: skew(0);
 }
 
-.card.var-orange {
+.card.var-orange,
+.card.var-orange a {
   color: var(--white);
 }
-.card.var-violet {
+.card.var-violet,
+.card.var-violet a {
   color: var(--white);
 }
-.card.var-white {
+.card.var-white,
+.card.var-white a {
   color: var(--black);
 }
 
-.card.var-white .card-inner {
-  padding: 16px 0;
+.card.var-white_orange h1,
+.card.var-white_orange h2,
+.card.var-white_orange h3,
+.card.var-white_orange h4 {
+  color: var(--orange);
+}
+
+.card.var-white_violet h1,
+.card.var-white_violet h2,
+.card.var-white_violet h3,
+.card.var-white_violet h4 {
+  color: var(--violet);
+}
+
+.card.var-white .card-inner,
+.card.var-white_orange .card-inner,
+.card.var-white_violet .card-inner {
+  padding: 16px 0px;
 }
 
 @media (max-width: 799px) {
