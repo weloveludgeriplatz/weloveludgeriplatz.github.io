@@ -17,16 +17,14 @@ sections:
 
       Webentwickler Florio Partenzi und die Initiative „WeLoveLudgeriplatz“ laden dazu ein, gemeinsam über den Nutzen des Internets für lokale Gemeinschaften nachzudenken und zu erkunden, was eine erfolgreiche Internetpräsenz ausmacht.
   - type: paragraph
-    content: >-
+    content: |-
       #### Termine
-
 
       LadenEden, Ludgeripl. 39, 47057 Duisburg
 
-
       Fr. 17. Juli 18-20 Uhr
-
       Sa. 18. Juli 15-17 Uhr
+    style: white_violet
   - type: paragraph
     content: >-
       **Anmeldung & Infos:**
