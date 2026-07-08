@@ -1,0 +1,29 @@
+{
+  "name": "decap-cms-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev_eleventy": "npx @11ty/eleventy --serve",
+    "dev_decap": "npx decap-server",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorioPartenzi/decap-cms-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/FlorioPartenzi/decap-cms-test/issues"
+  },
+  "homepage": "https://github.com/FlorioPartenzi/decap-cms-test#readme",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "decap-server": "^3.5.0",
+    "serve": "^14.2.5"
+  }
+}

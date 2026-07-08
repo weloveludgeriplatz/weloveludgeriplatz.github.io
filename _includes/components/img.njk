@@ -1,0 +1,7 @@
+{% macro image(src, alt, style = "orange") %}
+  <div class="map-img-wrapper">
+    <div class="map-img-container var-{{style}}">
+      <img class="map-img" src="{{src}}" alt="{{alt}}" width=800>
+    </div>
+  </div>
+{% endmacro %}

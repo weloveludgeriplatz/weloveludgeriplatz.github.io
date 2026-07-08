@@ -1,0 +1,16 @@
+{% macro imageText(src, alt, content, style, side) %}
+  <div class="txt-img-wrapper">
+    {% if side=='left'%}
+      <div class="txt-img-container txt-img-txt var-{{style}} left">{{content | markdown | safe }}</div>
+    {% endif %}
+
+    <div class="txt-img-container txt-img-container-img {{side}}">
+      <div class="txt-img-img {{side}}" style="background-image: url({{src}})"></div>
+      <div class="txt-img-stripe var-{{style}} {{side}}"></div>
+    </div>
+
+    {% if side=='right'%}
+      <div class="txt-img-container txt-img-txt var-{{style}} right ">{{content | markdown | safe }}</div>
+    {% endif %}
+  </div>
+{% endmacro %}

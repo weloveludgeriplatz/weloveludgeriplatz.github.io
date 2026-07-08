@@ -1,0 +1,227 @@
+:root {
+  --orange: #ffa500;
+  --violet: #be00ff;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+@font-face {
+  font-family: boldonse;
+  src: url("/public/fonts/Boldonse/Boldonse-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-Thin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-ThinItalic.ttf");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-ExtraLightItalic.ttf");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-RegularItalic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-ExtraBoldItalic.ttf");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-Black.ttf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/Poppins/Poppins-BlackItalic.ttf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: boldonse, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+  hyphenate-character: "";
+}
+
+body {
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+#spacer {
+  flex: 1;
+}
+
+main {
+}
+
+.main-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  max-width: 800px;
+  margin: 16px auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 16px;
+
+  text-decoration: none;
+}
+
+.header-container img {
+  object-fit: contain;
+
+  aspect-ratio: 4/6;
+  max-height: 180px;
+
+  margin: auto 0;
+}
+
+.header-container h1 {
+  color: var(--orange);
+  margin: auto 0;
+  font-size: min(42px, 7vw);
+}
+
+@media (max-width: 800px) {
+  .header-container img {
+    max-height: 140px;
+    margin: auto 16px auto 0;
+  }
+  .header-container h1 {
+    margin: auto 0 auto 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-container img {
+    max-height: 100px;
+    margin: auto 16px auto 0;
+  }
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 16px auto 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+.footer-card {
+  background-color: var(--orange);
+
+  border-radius: 16px 16px 0 0;
+  padding: 16px 32px;
+  width: 100%;
+}
+
+.footer-card a {
+  color: var(--white);
+  text-decoration: none;
+
+  font-family: boldonse, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+  hyphenate-character: "";
+  font-size: 12px;
+}

@@ -1,0 +1,7 @@
+{% macro card(text, style = "orange") %}
+  <div class="card var-{{style}}">
+    <div class="card-inner var-{{style}}">
+      {{ text | markdown | safe}}
+    </div>
+  </div>
+{% endmacro %}

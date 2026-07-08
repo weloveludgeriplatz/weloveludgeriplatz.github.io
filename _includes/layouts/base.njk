@@ -1,0 +1,74 @@
+{% from "components/button.njk" import button %}
+{% from "components/card.njk" import card %}
+{% from "components/img.njk" import image %}
+{% from "components/img-text.njk" import imageText %}
+{% from "components/header.njk" import header %}
+{% from "components/footer.njk" import footer %}
+
+<!DOCTYPE html>
+<html lang="{{ language }}">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="manifest" href="/public/icons/site.webmanifest"/>
+
+    <link rel="preload" href="/public/styles/style.css" as="style"/>
+    <link rel="stylesheet" href="/public/styles/style.css"/>
+
+    <link rel="stylesheet" href="/public/styles/components.css"/>
+
+    <link
+    rel="preload"
+    href="/public/fonts/Poppins/Poppins-Medium.ttf"
+    as="font"
+    crossorigin="anonymous"/>
+    <link
+    rel="preload"
+    href="/public/fonts/Boldonse/Boldonse-Regular.ttf"
+    as="font"
+    crossorigin="anonymous"/>
+    <title>{{ title }}</title>
+    <meta name="application-name" content="WeLoveLudgeriplatz - {{title}}" lang="de"/>
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="just a bunch of test content and proof of concept">
+  </head>
+  <body>
+    <header>
+      {{header()}}
+    </header>
+    <main>
+      <div class="main-container">
+        {% for section in sections | groupedButtons %}
+
+          {% if section.type == "paragraph" %}
+            {{ card(section.content, section.style) }}
+          {% endif %}
+
+          {% if section.type == "image" %}
+            {{ image(section.src, section.alt, section.style ) }}
+          {% endif %}
+
+          {% if section.type == "image-text" %}
+            {{ imageText(section.src, section.alt, section.content, section.style, section.side ) }}
+          {% endif %}
+
+          {% if section.type == "button-group" %}
+            <div class="button-group">
+
+              {% for s_button in section.sections %}
+                {{ button(s_button.text, s_button.url, s_button.style) }}
+              {% endfor %}
+
+            </div>
+          {% endif %}
+
+        {% endfor %}
+      </div>
+    </main>
+    <div id="spacer"></div>
+    <footer>
+      {{footer()}}
+    </footer>
+  </body>
+</html>
