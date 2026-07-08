@@ -1,5 +1,5 @@
 {
-  "name": "decap-cms-test",
+  "name": "weLoveLudgeriplatz",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlorioPartenzi/decap-cms-test.git"
+    "url": "git+https://github.com/weloveludgeriplatz/weloveludgeriplatz.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/FlorioPartenzi/decap-cms-test/issues"
+    "url": "https://github.com/weloveludgeriplatz/weloveludgeriplatz/issues"
   },
-  "homepage": "https://github.com/FlorioPartenzi/decap-cms-test#readme",
+  "homepage": "https://github.com/weloveludgeriplatz/weloveludgeriplatz#readme",
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",

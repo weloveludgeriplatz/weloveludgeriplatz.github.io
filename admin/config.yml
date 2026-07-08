@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: FlorioPartenzi/decap-cms-test
+  repo: weloveludgeriplatz/weloveludgeriplatz
   branch: main
 
 local_backend: true
@@ -16,7 +16,12 @@ collections:
     slug: "{{slug}}"
 
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "layouts/base.njk",
+        }
 
       - { label: "Title", name: "title", widget: "string" }
 
@@ -24,7 +29,6 @@ collections:
         name: "sections"
         widget: "list"
         types:
-
           - label: "Paragraph"
             name: "paragraph"
             widget: "object"
@@ -33,88 +37,56 @@ collections:
                   label: "Style",
                   name: "style",
                   widget: "select",
-                  options: ["orange", "violet", 'white']
+                  options: ["orange", "violet", "white"],
                 }
-              - {
-                  label: "Content",
-                  name: "content",
-                  widget: "markdown"
-                }
+              - { label: "Content", name: "content", widget: "markdown" }
 
           - label: "Button"
             name: "button"
             widget: "object"
             fields:
               - {
-                    label: "Style",
-                    name: "style",
-                    widget: "select",
-                    options: ["orange", "violet"],
-                    default: "orange"
-                  }
-              - {
-                  label: "Text",
-                  name: "text",
-                  widget: "string"
+                  label: "Style",
+                  name: "style",
+                  widget: "select",
+                  options: ["orange", "violet"],
+                  default: "orange",
                 }
-              - {
-                  label: "Link",
-                  name: "url",
-                  widget: "string"
-                }
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Link", name: "url", widget: "string" }
 
           - label: "Image"
             name: "image"
             widget: "object"
             fields:
               - {
-                    label: "Style",
-                    name: "style",
-                    widget: "select",
-                    options: ["orange", "violet"],
-                    default: "orange"
+                  label: "Style",
+                  name: "style",
+                  widget: "select",
+                  options: ["orange", "violet"],
+                  default: "orange",
                 }
-              - {
-                  label: "Image",
-                  name: "src",
-                  widget: "image"
-                }
-              - {
-                  label: "Alt Text",
-                  name: "alt",
-                  widget: "string"
-                }
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
 
           - label: "Image + Text"
             name: "image-text"
             widget: "object"
             fields:
               - {
-                    label: "Style",
-                    name: "style",
-                    widget: "select",
-                    options: ["orange", "violet"],
-                    default: "orange"
+                  label: "Style",
+                  name: "style",
+                  widget: "select",
+                  options: ["orange", "violet"],
+                  default: "orange",
                 }
               - {
-                    label: "Side",
-                    name: "side",
-                    widget: "select",
-                    options: ["left", "right"],
-                    default: "left"
+                  label: "Side",
+                  name: "side",
+                  widget: "select",
+                  options: ["left", "right"],
+                  default: "left",
                 }
-              - {
-                  label: "Image",
-                  name: "src",
-                  widget: "image"
-                }
-              - {
-                  label: "Alt Text",
-                  name: "alt",
-                  widget: "string"
-                }
-              - {
-                  label: "Content",
-                  name: "content",
-                  widget: "markdown"
-                }
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
+              - { label: "Content", name: "content", widget: "markdown" }
