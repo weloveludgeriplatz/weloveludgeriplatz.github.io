@@ -15,17 +15,20 @@ sections:
       Gemeinschaft entsteht vor Ort: auf Plätzen, Straßen und bei Begegnungen zwischen Menschen. Doch ein immer größerer Teil unseres Austauschs findet digital statt. Wie können Initiativen und lokale Unternehmen das Internet nutzen, um Menschen zu erreichen, Beteiligung zu fördern und ihre Arbeit sichtbar zu machen?
 
 
-      Webentwickler Florio Partenzi und die Initiative „WeLoveLudgeriplatz“ laden dazu ein, gemeinsam über den Nutzen des Internets für lokale Gemeinschaften nachzudenken und zu erkunden, was eine erfolgreiche Internetpräsenz ausmacht.
-  - type: paragraph
-    content: >-
+      Webentwickler Florio Partenzi und die Initiative „WeLoveLudgeriplatz“ laden dazu ein, gemeinsam über den Nutzen des Internets für lokale Gemeinschaften nachzudenken und zu erkunden, was eine erfolgreiche Internetpräsenz ausmacht.\
+
+      \
+
       LadenEden, Ludgeripl. 39, 47057 Duisburg
 
 
-      Fr. 17. Juli 18-20 Uhr\
+      Fr. 17. Juli 18-20 Uhr
 
       Sa. 18. Juli 15-17 Uhr
+  - type: paragraph
+    content: >-
+      **Anmeldung & Infos:** 
 
-
-      Anmeldung & Infos: Duisburg Unverpackt - Blumenstraße 2, 47057 Duisburg oder per mail an weloveludgeriplatz@yahoo.com.
-    style: orange
+      ﻿Duisburg Unverpackt - Blumenstraße 2, 47057 Duisburg oder per mail an weloveludgeriplatz@yahoo.com.
+    style: violet
 ---
