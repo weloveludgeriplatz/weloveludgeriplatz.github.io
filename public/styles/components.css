@@ -74,7 +74,7 @@
 .card.var-white .card-inner,
 .card.var-white_orange .card-inner,
 .card.var-white_violet .card-inner {
-  padding: 16px 0px;
+  padding: 0px;
 }
 
 @media (max-width: 799px) {
@@ -164,6 +164,13 @@ a.button.var-violet::before {
 }
 .map-img-container.var-violet {
   background-color: var(--violet);
+}
+
+.var-orange .map-img {
+  color: var(--orange);
+}
+.var-violet .map-img {
+  color: var(--violet);
 }
 
 .map-img {

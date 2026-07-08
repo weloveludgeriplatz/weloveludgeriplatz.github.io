@@ -11,6 +11,18 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./admin");
   eleventyConfig.addPassthroughCopy("./.htaccess");
 
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    permalink: data => {
+      const slug = data.page.fileSlug;
+
+      if (slug === "home") {
+        return "/";
+      }
+
+      return data.permalink || `/${slug}/`;
+    }
+  });
+
   eleventyConfig.addFilter("markdown", (content) => {
     return md.render(content || "");
   });
