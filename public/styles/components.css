@@ -1,3 +1,7 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px;
+}
+
 .card {
   position: relative;
   margin: 16px 0px;
@@ -8,10 +12,10 @@
   position: absolute;
   inset: 0;
 
-  /* transform: skew(-4deg); */
   z-index: -1;
 
   border-radius: 16px;
+  filter: drop-shadow(var(--shadow));
 }
 
 .card-inner {
@@ -42,6 +46,7 @@
 .card.var-white_violet::before {
   background-color: var(--white);
   transform: skew(0);
+  filter: none;
 }
 
 .card.var-orange,
@@ -114,6 +119,16 @@ a.button::before {
   z-index: -1;
 
   border-radius: 8px;
+  filter: drop-shadow(var(--shadow));
+}
+
+a.button p {
+  display: inline-block;
+}
+a.button p.chevron {
+  vertical-align: center;
+  padding-bottom: 2px;
+  padding-left: 6px;
 }
 
 a.button.var-orange::before {
@@ -139,6 +154,7 @@ a.button.var-violet::before {
 .map-img-wrapper {
   display: flex;
   justify-content: center;
+  filter: drop-shadow(var(--shadow));
 }
 
 .map-img-container {
