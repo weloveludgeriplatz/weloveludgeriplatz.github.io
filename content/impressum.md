@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: impressum
+title: Impressum
 sections:
   - type: paragraph
     style: white
@@ -11,10 +11,10 @@ sections:
       ANGABEN GEMÄSS § 5 TMG:
 
 
-      Arne Buschmann
+      Kirsten Mika
 
 
-      Oststraße 69
+      Ludgeristraße 7 
 
 
       47057 Duisburg
@@ -23,15 +23,15 @@ sections:
       KONTAKT:
 
 
-      Telefon: 0203 3177 2336
+      Telefon: +49 178 5583282
 
 
-      E-Mail: arne.buschmann@feg.de
+      E-Mail: kirsten.mika@posteo.de
 
 
-      Website: Konzeption und Realisierung: Silke van Os
+      Website: Konzeption und Realisierung: Kirsten Mika
 
-      Textredaktion: Silke van Os
+      Textredaktion: Kirsten Mika
 
 
       HAFTUNG FÜR INHALTE
@@ -70,9 +70,6 @@ sections:
       Quelle: eRecht24
 
 
-
-
-
       DATENSCHUTZERKLÄRUNG
 
 
@@ -87,7 +84,6 @@ sections:
 
       Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 
-       
 
       COOKIES
 
@@ -100,14 +96,12 @@ sections:
 
       Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browser aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.
 
-       
 
       KONTAKTFORMULAR
 
 
       Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
 
-       
 
       GOOGLE ANALYTICS
 
@@ -132,7 +126,6 @@ sections:
 
       Sie können die Erfassung Ihrer Daten durch Google Analytics verhindern, indem Sie auf folgenden Link klicken. Es wird ein Opt-Out-Cookie gesetzt, der die Erfassung Ihrer Daten bei zukünftigen Besuchen dieser Website verhindert: Google Analytics deaktivieren
 
-       
 
       FACEBOOK-PLUGINS (LIKE-BUTTON)
 
@@ -145,7 +138,6 @@ sections:
 
       Wenn Sie nicht wünschen, dass Facebook den Besuch unserer Seiten Ihrem Facebook-Nutzerkonto zuordnen kann, loggen Sie sich bitte aus Ihrem Facebook- Benutzerkonto aus.
 
-       
 
       INSTAGRAM
 
@@ -155,14 +147,12 @@ sections:
 
       Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram: http://instagram.com/about/legal/privacy/
 
-       
 
       WIDERSPRUCH WERBE-MAILS
 
 
       Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
 
-       
 
       Quelle: https://www.e-recht24.de
 ---

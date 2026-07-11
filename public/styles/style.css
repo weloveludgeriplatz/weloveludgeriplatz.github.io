@@ -149,6 +149,13 @@ body {
   flex-direction: column;
 }
 
+/* header {
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+  z-index: 100;
+} */
+
 .header-container {
   max-width: 800px;
   margin: 16px auto;

@@ -68,10 +68,10 @@ sections:
   - type: paragraph
     style: violet
     content: >-
-      #### Termine 
+      #### Termine
 
 
-      Treffpunkt ist immer St. Ludger, Ludgeripl. 33, 47057 Duisburg
+      Treffpunkt ist immer St. Ludger, Ludgeriplatz 33, 47057 Duisburg
 
 
       **„This IS a church! – Auf der Suche nach Verbindung(en) am Platz“** \

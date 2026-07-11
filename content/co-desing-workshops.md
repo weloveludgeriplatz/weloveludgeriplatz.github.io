@@ -44,7 +44,7 @@ sections:
       So. 19. Juli 12-15 Uhr, 16-19 Uhr
 
 
-      St. Ludger, Ludgeripl. 33, 47057 Duisburg
+      St. Ludger, Ludgeriplatz 33, 47057 Duisburg
     style: white_orange
   - type: paragraph
     content: >-

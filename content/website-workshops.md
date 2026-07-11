@@ -20,7 +20,7 @@ sections:
     content: |-
       #### Termine
 
-      LadenEden, Ludgeripl. 39, 47057 Duisburg
+      LadenEden, Ludgeriplatz 39, 47057 Duisburg
 
       Fr. 17. Juli 18-20 Uhr
       Sa. 18. Juli 15-17 Uhr
