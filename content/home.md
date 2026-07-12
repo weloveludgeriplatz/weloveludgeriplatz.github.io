@@ -7,7 +7,20 @@ sections:
     src: https://drive.google.com/file/d/1mBfDpNVSvylGg6aptHcCGQ313jacH9KC/view?usp=sharing
     alt: Bunte Pöller rund um den Platz
   - type: paragraph
+    content: >-
+      # Die Initiative
+
+
+      WeLoveLudgeriplatz ist eine Nachbarschaftsinitiative, die vor mehr als einer Dekade begonnen hat,den öffentlichen Platz rund um die Kirche St. Ludger in Duisburg kreativ zu bespielen.
+
+
+      Der überkonfessionelle und überparteiliche Zusammenschluss aus AnwohnerInnen und Geschäftsleuten setzt sich seitdem dafür ein, langfristig den Stadtteil so zu beleben, dass die städtische Anonymität überwunden und ein kommunikatives und kreatives Miteinander gefördert wird.
+
+
+      Dazu ruft die Initiative jedes Jahr Aktionen ins Leben, durch die der Platz mehr und mehr zum Verweilen einlädt.
     style: white_orange
+  - type: paragraph
+    style: white_violet
     content: >-
       # Ludgeriplatz 2.0
 
