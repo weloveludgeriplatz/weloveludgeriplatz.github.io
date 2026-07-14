@@ -15,6 +15,7 @@ collections:
   - name: "pages"
     label: "Pages"
     folder: "content"
+    extension: md
     create: true
     slug: "{{slug}}"
 

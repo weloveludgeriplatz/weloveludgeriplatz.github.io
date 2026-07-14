@@ -9,7 +9,8 @@ const md = markdownIt({
 export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./public");
   eleventyConfig.addPassthroughCopy("./admin");
-  eleventyConfig.addPassthroughCopy("./.htaccess");
+  eleventyConfig.addPassthroughCopy("./public/robot.txt");
+  eleventyConfig.addPassthroughCopy("./public/sitemap.xml");
 
   eleventyConfig.addGlobalData("eleventyComputed", {
     permalink: data => {
