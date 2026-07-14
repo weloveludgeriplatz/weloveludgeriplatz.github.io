@@ -1,4 +1,5 @@
 {% from "components/button.njk" import button %}
+{% from "components/calender.njk" import calender %}
 {% from "components/card.njk" import card %}
 {% from "components/img.njk" import image %}
 {% from "components/img-text.njk" import imageText %}
@@ -56,6 +57,10 @@
 
           {% if section.type == "image-text" %}
             {{ imageText(section.src, section.alt, section.content, section.style, section.side ) }}
+          {% endif %}
+
+          {% if section.type == "calendar" %}
+            {{ calender(section.title, section.events,section.style) }}
           {% endif %}
 
           {% if section.type == "button-group" %}

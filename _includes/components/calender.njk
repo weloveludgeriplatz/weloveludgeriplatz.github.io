@@ -1,0 +1,18 @@
+{% macro calender(title, events, style = "orange") %}
+  <div class="calender var-{{style}}">
+    <h2>{{title}}</h2>
+    <ul class="calender-list">
+      {% for event in events %}
+        <li class="calender-item">
+          <a href="{{event.url}}">
+            <div class="calender-title-container var-{{style}}">
+              <b>{{event.title}}</b>
+              <b>{{event.date}}</b>
+            </div>
+            <i>{{event.location}}</i>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endmacro %}

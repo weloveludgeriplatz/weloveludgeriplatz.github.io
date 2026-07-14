@@ -120,6 +120,7 @@ h4 {
   letter-spacing: 0.05em;
   line-height: 1.4em;
   hyphenate-character: "";
+  word-wrap: break-word;
 }
 
 body {
