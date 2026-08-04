@@ -3,6 +3,7 @@
 {% from "components/card.njk" import card %}
 {% from "components/img.njk" import image %}
 {% from "components/img-text.njk" import imageText %}
+{% from "components/image-gallery.njk" import imageGallery %}
 {% from "components/scroll-to-top.njk" import scrollToTop %}
 {% from "components/header.njk" import header %}
 {% from "components/footer.njk" import footer %}
@@ -61,8 +62,12 @@
             {{ imageText(section.src, section.alt, section.content, section.style, section.side ) }}
           {% endif %}
 
+          {% if section.type == "image-gallery" %}
+            {{ imageGallery(section.title, section.images, section.style) }}
+          {% endif %}
+
           {% if section.type == "calendar" %}
-            {{ calender(section.title, section.events,section.style) }}
+            {{ calender(section.title, section.events, section.style) }}
           {% endif %}
 
           {% if section.type == "button-group" %}

@@ -1,7 +1,7 @@
 {% macro image(src, alt, style = "orange") %}
   <div class="map-img-wrapper">
     <div class="map-img-container var-{{style}}">
-      <img class="map-img" src="{{src | driveImg}}" referrerpolicy="no-referrer" alt="{{alt}}" width=800>
+      <img class="map-img" src="{{src | driveImg}}" referrerpolicy="no-referrer" alt="{{alt}}" width=800 onerror='this.style.display = "none"'>
     </div>
   </div>
 {% endmacro %}

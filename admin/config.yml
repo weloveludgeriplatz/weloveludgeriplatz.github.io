@@ -119,3 +119,19 @@ collections:
                   - { label: "Location", name: "location", widget: "string" }
                   - { label: "Link", name: "url", widget: "string" }
                   - { label: "Date", name: "date", widget: "string" }
+          - label: "Image Gallery"
+            name: "image-gallery"
+            widget: "object"
+            fields:
+              - label: "Style"
+                name: "style"
+                widget: "select"
+                options: ["orange", "violet"]
+                default: "orange"
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "src", widget: "drive-image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }

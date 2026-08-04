@@ -1,0 +1,17 @@
+{% macro imageGallery(title, images, style = "orange") %}
+  <div class="image-gallery var-{{style}}">
+    <h2>{{title}}</h2>
+    <div class="image-gallery-list">
+      {% for row in images | batch(3) %}
+        <div class="gallery-row">
+          {% for img in row %}
+            <div class="gallery-item fallback-{{ ['orange', 'violet'] | random }}">
+              {# <img src="{{ img.src | driveImg }}" alt="{{ img.alt }}"> #}
+              <img src="{{ img.src | driveImg }}" alt="{{ img.alt }}" onerror='this.style.display = "none"'>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </li>
+{% endmacro %}
