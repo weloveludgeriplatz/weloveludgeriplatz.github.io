@@ -431,28 +431,16 @@ a.button.var-violet::before {
 
 .scroll-to-top .chevron {
   text-decoration: none;
-  font-weight: 900;
-  font-size: 28px;
-  line-height: 1;
 
-  display: inline-block;
-
-  color: var(--white);
   background-color: var(--orange);
 
+  height: 24px;
+  width: 24px;
   padding: 12px;
   border-radius: 100px;
   margin-right: 16px;
 
   filter: drop-shadow(var(--shadow));
-}
-
-.scroll-to-top a {
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-
-  -webkit-appearance: none;
-  appearance: none;
 }
 
 .scroll-to-top {
