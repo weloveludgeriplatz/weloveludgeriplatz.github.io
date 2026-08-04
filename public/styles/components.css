@@ -430,8 +430,6 @@ a.button.var-violet::before {
 }
 
 .scroll-to-top .chevron {
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
   text-decoration: none;
   font-weight: 900;
   font-size: 28px;
@@ -447,6 +445,14 @@ a.button.var-violet::before {
   margin-right: 16px;
 
   filter: drop-shadow(var(--shadow));
+}
+
+.scroll-to-top a {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .scroll-to-top {
