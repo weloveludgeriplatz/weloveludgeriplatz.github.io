@@ -3,6 +3,7 @@
 {% from "components/card.njk" import card %}
 {% from "components/img.njk" import image %}
 {% from "components/img-text.njk" import imageText %}
+{% from "components/scroll-to-top.njk" import scrollToTop %}
 {% from "components/header.njk" import header %}
 {% from "components/footer.njk" import footer %}
 
@@ -40,10 +41,11 @@
     <meta name="keywords" content="just a bunch of test content and proof of concept">
   </head>
   <body>
-    <header>
+    <header id="top">
       {{header()}}
     </header>
     <main>
+      {{scrollToTop()}}
       <div class="main-container">
         {% for section in sections | groupedButtons %}
 
