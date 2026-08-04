@@ -5,10 +5,10 @@
       {% for row in images | batch(3) %}
         <div class="gallery-row">
           {% for img in row %}
-            <div class="gallery-item fallback-{{ ['orange', 'violet'] | random }}">
-              {# <img src="{{ img.src | driveImg }}" alt="{{ img.alt }}"> #}
-              <img src="{{ img.src | driveImg }}" alt="{{ img.alt }}" onerror='this.style.display = "none"'>
-            </div>
+            {% set item_id = uuid() %}
+            <a class="gallery-item fallback-{{ ['orange', 'violet'] | random }}" href="{{ img.src | driveImg }}" id="{{item_id}}">
+              <img src="{{ img.src | driveImg }}" alt="{{ img.alt }}" onerror='this.style.display="none"; document.getElementById("{{item_id}}").style.width="100%"'>
+            </a>
           {% endfor %}
         </div>
       {% endfor %}

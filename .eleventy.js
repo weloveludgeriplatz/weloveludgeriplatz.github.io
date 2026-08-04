@@ -28,6 +28,8 @@ export default async function (eleventyConfig) {
     return md.render(content || "");
   });
 
+  eleventyConfig.addNunjucksGlobal("uuid", () => crypto.randomUUID());
+
   eleventyConfig.addFilter("driveImg", (content) => {
     if (!content.includes("drive.google.com")) return content;
     const id = content.replace('https://drive.google.com/file/d/', '').replace('/view?usp=sharing', '');
