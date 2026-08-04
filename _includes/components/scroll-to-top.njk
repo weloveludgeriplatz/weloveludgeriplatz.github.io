@@ -4,4 +4,13 @@
       <a class="chevron" href="#top">⌃</a>
     </div>
   </div>
+  <script>
+    const btn = document.querySelector(".scroll-to-top");
+
+    addEventListener("scroll", () => {
+      btn
+        .classList
+        .toggle("visible", scrollY > 300);
+    });
+  </script>
 {% endmacro %}

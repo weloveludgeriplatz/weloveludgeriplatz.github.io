@@ -443,3 +443,14 @@ a.button.var-violet::before {
 
   filter: drop-shadow(var(--shadow));
 }
+
+.scroll-to-top {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
