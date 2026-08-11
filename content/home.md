@@ -29,6 +29,26 @@ sections:
   - type: calendar
     style: orange
     events:
+      - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
+        url: /urban-walks
+        title: Urban Walks & Talks 2
+        date: Fr. 21. August 10-12 Uhr
+      - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
+        title: Urban Walks & Talks 3
+        date: Fr. 28. August 10-12 Uhr
+        url: /urban-walks
+      - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
+        url: /urban-walks
+        title: Urban Walks & Talks 4
+        date: Fr. 25. September 17-19 Uhr
+      - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
+        date: Sa. 26.September 12-16 Uhr
+        url: /abschlussferier
+        title: Abschlussfeier
+      - title: VERGANGENE TERMINE
+        location: " "
+        url: " "
+        date: " "
       - title: Co-Design-Workshops - Ludgeriplatz neu gedacht
         date: Sa. 11. Juli 15-19 Uhr
         url: /co-desing
@@ -77,22 +97,6 @@ sections:
         url: /urban-walks
         title: Urban Walks & Talks 1
         date: Fr. 07. August 10-12 Uhr
-      - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /urban-walks
-        title: Urban Walks & Talks 2
-        date: Fr. 14. August 10-12 Uhr
-      - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /urban-walks
-        title: Urban Walks & Talks 3
-        date: Fr. 21. August 10-12 Uhr
-      - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        title: Urban Walks & Talks 4
-        date: Fr. 28. August 10-12 Uhr
-        url: /urban-walks
-      - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        date: Sa. 26.September 12-16 Uhr
-        url: /abschlussferier
-        title: Abschlussfeier
     title: Veranstaltungskalender
   - type: button
     style: orange
