@@ -45,6 +45,14 @@ sections:
         date: Sa. 26.September 12-16 Uhr
         url: /abschlussferier
         title: Abschlussfeier
+      - title: " "
+        location: " "
+        url: " "
+        date: " "
+      - title: " "
+        location: " "
+        url: " "
+        date: " "
       - title: VERGANGENE TERMINE
         location: " "
         url: " "
