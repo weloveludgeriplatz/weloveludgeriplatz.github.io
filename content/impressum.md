@@ -31,7 +31,7 @@ sections:
 
       Website: Konzeption und Realisierung: Kirsten Mika
 
-      Textredaktion: Kirsten Mika
+      Textredaktion: Silke van Os
 
 
       HAFTUNG FÜR INHALTE
