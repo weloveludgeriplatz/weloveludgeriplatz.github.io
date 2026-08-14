@@ -359,10 +359,18 @@ a.button.var-violet::before {
   color: var(--violet);
 }
 
+.calender {
+  margin: 0 0 48px 0;
+}
+
+.calender h3 {
+  margin-top: 32px;
+  color: var(--gray);
+}
+
 .calender-list {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 48px 0;
 }
 
 .calender-title-container {
@@ -397,6 +405,9 @@ a.button.var-violet::before {
 }
 .calender-title-container.var-orange {
   color: var(--orange);
+}
+.calender-title-container.past-event {
+  color: var(--gray);
 }
 
 @media (max-width: 799px) {
