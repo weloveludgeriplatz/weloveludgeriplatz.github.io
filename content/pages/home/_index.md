@@ -31,97 +31,97 @@ sections:
     events:
       - title: Co-Design-Workshops - Ludgeriplatz neu gedacht
         date: Sa. 11. Juli 15-19 Uhr
-        url: /co-desing
+        url: /manifesta/co-design-workshops
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
         past_event: true
       - title: Co-Design-Workshops - Ludgeriplatz neu gedacht
         date: So. 12. Juli 12-15 Uhr
-        url: /co-desing
+        url: /manifesta/co-design-workshops
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
         past_event: true
       - title: Wir kümmern uns um unseren Platz
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
         date: "Mo. 13. Juli 18-20 Uhr "
-        url: /co-desing
+        url: /manifesta/co-design-workshops
         past_event: true
       - title: Wir kümmern uns um unseren Platz
         date: Di. 14. Juli 18-20 Uhr
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /co-desing
+        url: /manifesta/co-design-workshops
         past_event: true
       - title: Wir kümmern uns um unseren Platz
         date: Mi. 15. Juli 18-20 Uhr
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /co-desing
+        url: /manifesta/co-design-workshops
         past_event: true
       - date: Do. 16. Juli 18-20 Uhr
         title: Wir kümmern uns um unseren Platz
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /co-desing
+        url: /manifesta/co-design-workshops
         past_event: true
       - title: Co-Design-Workshops - Ludgeriplatz neu gestaltet
         date: Fr. 17. Juli 11-14 Uhr, 15-19 Uhr
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /co-desing
+        url: /manifesta/co-design-workshops
         past_event: true
       - date: Sa. 18. Juli 12-15 Uhr, 16-19 Uhr
         title: Co-Design-Workshops - Ludgeriplatz neu gestaltet
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /co-desing
+        url: /manifesta/co-design-workshops
         past_event: true
       - title: Website-Workshop
         date: Fr. 17. Juli 18-20 Uhr
-        url: /website-workshop
+        url: /manifesta//website-workshop
         location: LadenEden, Ludgeriplatz 39, 47057 Duisburg
         past_event: true
       - title: Website-Workshop
-        url: /website-workshop
+        url: /manifesta//website-workshop
         date: Sa. 18. Juli 15-17 Uhr
         location: LadenEden, Ludgeriplatz 39, 47057 Duisburg
         past_event: true
       - title: Yoga-Session
         location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /yoga
+        url: /manifesta//yoga
         date: So. 19. Juli 10:30-11:30 Uhr
         past_event: true
       - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /urban-walks
+        url: /manifesta//urban-walks
         title: Urban Walks & Talks 1
         date: Fr. 07. August 10-12 Uhr
         past_event: true
       - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /urban-walks
+        url: /manifesta//urban-walks
         title: Urban Walks & Talks 2
         date: Fr. 14. August 10-12 Uhr
         past_event: false
       - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
-        url: /urban-walks
+        url: /manifesta//urban-walks
         title: Urban Walks & Talks 3
         date: Fr. 21. August 10-12 Uhr
         past_event: false
       - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
         title: Urban Walks & Talks 4
         date: Fr. 28. August 10-12 Uhr
-        url: /urban-walks
+        url: /manifesta//urban-walks
         past_event: false
       - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
         date: Sa. 26.September 12-16 Uhr
-        url: /abschlussferier
+        url: /manifesta//abschlussferier
         title: Abschlussfeier
         past_event: false
     title: Veranstaltungskalender
   - type: button
     style: orange
     text: Urban Walks
-    url: /urban-walks
+    url: /manifesta/urban-walks
   - type: button
     style: orange
     text: Co-Design
-    url: /co-desing-workshops
+    url: /manifesta/co-design-workshops
   - type: button
     style: orange
     text: Website-Workshops
-    url: /website-workshops
+    url: /manifesta/website-workshops
   - type: button
     style: violet
     text: Manifesta 16 Ruhr

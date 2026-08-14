@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: "404"
+title: Error
 sections:
   - type: paragraph
     style: white_orange

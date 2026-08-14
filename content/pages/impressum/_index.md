@@ -14,7 +14,7 @@ sections:
       Kirsten Mika
 
 
-      Ludgeristraße 7 
+      Ludgeristraße 7
 
 
       47057 Duisburg
@@ -64,7 +64,7 @@ sections:
       Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Fotos: Quelle: unsplash.com / weloveludgeriplatz
 
 
-      Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen. 
+      Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
 
       Quelle: eRecht24

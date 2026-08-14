@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Urban-walks
+title: Urban Walks
 sections:
   - type: image
     style: orange

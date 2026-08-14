@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Co-Desing-Workshops
+title: Co Design Workshops
 sections:
   - type: image
     style: orange

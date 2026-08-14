@@ -14,13 +14,10 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addGlobalData("eleventyComputed", {
     permalink: data => {
-      const slug = data.page.fileSlug;
+      const path = data.page.inputPath;
 
-      if (slug === "home") {
-        return "/";
-      }
-
-      return data.permalink || `/${slug}/`;
+      if (data.page.fileSlug == 'sitemap') return '/sitemap.xml'
+      return path.replace('./content/pages', '').replace('_index.md', '').replace('home/', '')
     }
   });
 
@@ -40,6 +37,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.addFilter("groupedButtons", (content) => {
     const newSections = [];
     let newButtons = [];
+
+    if (!content) return
 
     for (let i = 0; i < content.length; i++) {
       const curr = content[i];

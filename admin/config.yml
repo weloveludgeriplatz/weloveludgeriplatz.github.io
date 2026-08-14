@@ -16,11 +16,20 @@ public_folder: "/images"
 collections:
   - name: "pages"
     label: "Pages"
-    folder: "content"
+    label_singular: "Page"
+    folder: "content/pages"
     extension: md
     create: true
     slug: "{{slug}}"
-
+    nested:
+      depth: 10
+      summary: "{{title}}"
+      subfolders: true
+    meta:
+      path:
+        widget: string
+        label: "Path"
+        index_file: "_index"
     fields:
       - {
           label: "Layout",
@@ -28,9 +37,7 @@ collections:
           widget: "hidden",
           default: "layouts/base.njk",
         }
-
       - { label: "Title", name: "title", widget: "string" }
-
       - label: "Sections"
         name: "sections"
         widget: "list"

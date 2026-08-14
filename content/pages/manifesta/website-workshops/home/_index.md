@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Website-Workshops
+title: Website Workshops
 sections:
   - type: image
     style: orange
