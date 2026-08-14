@@ -17,7 +17,7 @@ export default async function (eleventyConfig) {
       const path = data.page.inputPath;
 
       if (data.page.fileSlug == 'sitemap') return '/sitemap.xml'
-      return path.replace('./content/pages', '').replace('_index.md', '').replace('home/', '')
+      return path.replace('./content/pages', '').replace('_index.md', '').replace(/home\/?$/, '')
     }
   });
 
