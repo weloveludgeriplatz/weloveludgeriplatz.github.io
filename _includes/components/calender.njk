@@ -1,6 +1,6 @@
 {% macro calender(title, events, style = "orange") %}
   <div class="calender var-{{style}}">
-    {% for past_event, events in events | reverse | groupby("past_event") %}
+    {% for past_event, events in events | sort(attribute = "past_event") | groupby("past_event") %}
       {% if past_event == 'false' %}
         <h2>{{title}}</h2>
       {% else %}
