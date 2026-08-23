@@ -25,7 +25,7 @@ sections:
       # Ludgeriplatz 2.0
 
 
-      WeLoveLudgeriplatz ist eine Nachbarschaftsinitiative, die vor mehr als einer Dekade begonnen hat,den öffentlichen Platz rund um die Kirche St. Ludger in Duisburg kreativ zu bespielen. Mit dem Projekt Ludgeriplatz 2.0 setzt die Initiative nun neue Impulse und geht weitere Kooperationen ein. Das Projekt greift auf das schon bestehende Netzwerk der Initiative zurück, lädt aber gleichzeitig mit Hilfe von partizipatorischen Methoden Nachbarn dazu ein, den Ort in einen kreativen Raum zu verwandeln.
+      Mit dem Projekt Ludgeriplatz 2.0 setzt die Initiative nun neue Impulse und geht weitere Kooperationen ein. Das Projekt greift auf das schon bestehende Netzwerk der Initiative zurück, lädt aber gleichzeitig mit Hilfe von partizipatorischen Methoden Nachbarn dazu ein, den Ort in einen kreativen Raum zu verwandeln.
   - type: calendar
     style: orange
     events:
