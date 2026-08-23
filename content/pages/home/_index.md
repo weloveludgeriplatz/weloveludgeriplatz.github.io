@@ -93,7 +93,7 @@ sections:
         url: /manifesta//urban-walks
         title: Urban Walks & Talks 2
         date: Fr. 21. August 10-12 Uhr
-        past_event: false
+        past_event: true
       - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
         title: Urban Walks & Talks 3
         date: Fr. 28. August 10-12 Uhr
