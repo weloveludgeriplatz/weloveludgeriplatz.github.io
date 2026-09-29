@@ -103,12 +103,12 @@ sections:
         url: /manifesta/urban-walks
         title: Urban Walks & Talks 4
         date: Fr. 25. September 17-19 Uhr
-        past_event: false
+        past_event: true
       - location: St. Ludger, Ludgeriplatz 33, 47057 Duisburg
         date: Sa. 26.September 12-16 Uhr
         url: /manifesta//abschlussferier
         title: Abschlussfeier
-        past_event: false
+        past_event: true
     title: Veranstaltungskalender
   - type: button
     style: orange
